@@ -4,6 +4,7 @@ button {
 
 #search {
     width: 120px;
+    height: 27px;
     border-radius: 25px;
     border: 2px solid rgb(49, 172, 160);
     background-color: rgb(241, 237, 237);
@@ -30,9 +31,8 @@ button {
     border: 3px solid black;
     font-family: sans-serif;
     color: white;
-    width: 150px;
+    width: 160px;
     height: 30px;
     margin: 10px 0 0 50px;
     box-shadow: 5px 5px 0px black;
-
 }
