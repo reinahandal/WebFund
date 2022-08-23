@@ -1,0 +1,38 @@
+button {
+    display: block;
+}
+
+#search {
+    width: 120px;
+    border-radius: 25px;
+    border: 2px solid rgb(49, 172, 160);
+    background-color: rgb(241, 237, 237);
+    color: rgb(49, 172, 160);
+    font-weight: bolder;
+    font-family: sans-serif;
+    margin: 50px 0 10px 50px
+
+}
+
+#add {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: 0px;
+    background-color:turquoise;
+    color: white;
+    font-size: 24px;
+    margin: 10px 0 10px 50px;
+} 
+
+#create-acct {
+    background-color: rgb(57, 92, 247);
+    border: 3px solid black;
+    font-family: sans-serif;
+    color: white;
+    width: 150px;
+    height: 30px;
+    margin: 10px 0 0 50px;
+    box-shadow: 5px 5px 0px black;
+
+}
