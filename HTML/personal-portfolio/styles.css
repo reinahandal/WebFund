@@ -1,0 +1,35 @@
+* {
+    background-color: lavenderblush;
+    color: midnightblue;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+h1 {
+    color: rebeccapurple;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+
+#profile-pic {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: rebeccapurple;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+table {
+    border: 3px solid rebeccapurple;
+    border-collapse: collapse;
+}
+
+td, tr, th {
+    border: 2px solid;
+    padding: 4px;
+}
+
+.message-field {
+    margin: 20px 0 20px 0;
+}
