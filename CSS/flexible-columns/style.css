@@ -10,7 +10,7 @@
     /* margin-left: 10px; */
     color: white;
     padding: 20px;
-    margin: 10px 10px 10px 0;
+    margin: 10px;
 }
 
 .col-2 {
@@ -19,7 +19,7 @@
     flex: 2;
     color: white;
     padding: 20px;
-    margin: 10px 10px 10px 0;
+    margin: 10px;
 }
 
 .col-3 {
@@ -28,5 +28,5 @@
     flex: 3;
     color: white;
     padding: 20px;
-    margin: 10px 10px 10px 0;
+    margin: 10px;
 }
