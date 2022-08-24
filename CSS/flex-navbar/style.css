@@ -1,5 +1,37 @@
 * {
     font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 
+.nav {
+    background-color: rgb(49, 48, 48);
+    color: white;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.nav-title {
+    margin-left: 20px;
+    font-weight: 400;
+}
+.nav-links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+.btn {
+    background-color: skyblue;
+    color: white;
+    margin: 20px 10px;
+    box-shadow: 5px 5px 0px black;
+    padding: 5px;
+}
