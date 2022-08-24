@@ -4,7 +4,7 @@
 }
 
 .nav {
-    background-color: rgb(49, 48, 48);
+    background-color: rgb(63, 62, 62);
     color: white;
     height: 60px;
     display: flex;
@@ -34,4 +34,8 @@ a {
     margin: 20px 10px;
     box-shadow: 5px 5px 0px black;
     padding: 5px;
+}
+
+.active {
+    font-weight: 400;
 }
