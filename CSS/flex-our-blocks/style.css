@@ -30,7 +30,7 @@
     height: 200px;
     width: 210px;
     background-color: yellow;
-    margin-right: 10px;
+    margin-right: 15px;
 
 }
 #advertisement {
@@ -45,7 +45,10 @@
     justify-content: space-between;
 }
 
-
+.main .row{
+    display: flex;
+    justify-content: space-between;
+}
 
 
 
