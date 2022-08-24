@@ -1,0 +1,47 @@
+.main {
+    background-color: whitesmoke;
+    padding: 10px;
+
+}
+
+.row-1 {
+    background-color: turquoise;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row-2 {
+    background-color: violet;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.row-3 {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img {
+    height: 200px;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h4 {
+    text-align: center;
+
+}
+
+a {
+    color: deepskyblue;
+
+}
