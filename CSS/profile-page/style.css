@@ -15,7 +15,6 @@ nav {
     align-items: center;
     position: fixed;
     top: 0px;
-
 }
 .nav-title {
     margin-left: 20px;
@@ -28,7 +27,7 @@ nav {
     align-items: center;
     list-style-type: none;
 }
-a {
+.nav-links a {
     color: white;
     text-decoration: none;
     margin: 10px;
@@ -38,8 +37,7 @@ a {
     color: white;
     font-weight: 400;
     margin: 20px 10px;
-    box-shadow: 5px 5px 0px black;
-    padding: 7px;
+    padding: 10px;
     justify-self: flex-end;
     margin-right: 10%;
 }
@@ -52,36 +50,33 @@ a {
     border: lightgray 4px solid;
 
 }
-
 .header {
     background-color: #17A2B8;
+    height: 100px;
 }
-
 .user-img {
     width: 100px;
     position: relative;
-    top: 50px;
+    top: 40px;
     left: 50px;
     border: 4px lightgray solid;
     border-radius: 50%;
 }
-
 .user-info {
     padding: 50px 0px 20px 20px;
 }
 
+.user-info h2 {
+    font-size: 2em;
+    font-weight: 400;
+}
 .location {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     margin: 10px 0px;
 }
 
-h2 {
-    font-size: 0.95em;
-    margin-left: 5px;
-}
-
-p {
+.user-info p {
     width: 60%;
     font-size: 0.95em;
     line-height: 22px;
@@ -91,30 +86,34 @@ p {
     align-items: center;
     margin-top: 10px;
 }
-
 .usr-icons {
     height: 15px;
     margin: 5px;
 }
-
 #edit-profile {
     color: #4287f5;
     font-size: 0.9em;
+    text-decoration: ;
 }
+
 /* USER CARD STYLING ENDS HERE */
+
 main {
     display: flex;
     justify-content: center;
     margin-top: 100px;
+    padding: 15px;
 }
-
+section {
+    width: 500px;
+}
 .connections-header {
     background-color: #4C4E52 ;
     display: flex;
     flex-wrap: nowrap;
     color: white;
+    font-weight: 400px;
     padding: 10px;
-
 }
 .requests-num {
     background-color: lightgray;
@@ -122,18 +121,20 @@ main {
     border-radius: 50%;
     width: 25px;
     height: 25px;
+    margin-right: 10px;
 }
-
 .connections-num {
     background-color: lightgray;
     color: black;
-    border-radius: 40%;
+    border-radius: 100px / 50px;
     width: 40px;
-    height: 25px;
+    height: 20px;
+    margin-right: 10px;
 }
 .connections {
     border: lightgray solid 4px;
-    margin: 0 15px 15px 15px;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 .connection {
     display: flex;
@@ -144,16 +145,41 @@ main {
 .connection-icon {
     height: 25px;
 }
+.request-icons {
+    justify-self: flex-end;
+}
 .connection-img {
     width: 50px;
+    margin-right: 15px;
 }
-
 .view-more a {
     color: #4287f5;
     text-decoration: underline;
+    font-size: 0.9em;
 }
-
 .view-more {
     border-top: lightgray solid 4px;
-    padding: 5px;
+    padding: 10px;
+}
+.experience {
+    border: lightgray solid 4px;
+    margin-top: 20px;
+}
+.education-header {
+    background-color: #4C4E52;
+    padding: 10px;
+}
+.education-header h3 {
+    color: white;
+    font-weight: 400;
+}
+.education-bio {
+    padding: 10px;
+    line-height: 20px;
+}
+.education-bio h4 {
+    font-weight: 400;
+}
+.edu-1 {
+    margin-bottom: 20px;
 }
