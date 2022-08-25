@@ -20,27 +20,53 @@
         </ul>
         <button id="btn">Sign Out</button>
     </nav>
-    <main>
-        <section class="section-1">
-            <div class="header">
-                <img src="images/jane-m.jpg" alt="jane profile image" class="user-img">
-            </div>
-            <div class="user-info">
-                <h1>Jane Doe</h1>
-                <div class="location">
-                    <img src="icons/map-marker.png" alt="map marker" class="icons">
-                    <h2>Seattle</h2>
+    <main> <!-- This contains the section and aside-->
+        <section> <!-- This contains usercard and experience-->
+            <article class="user-card"> <!-- This is the usercard-->
+                <div class="header">
+                    <img src="images/jane-m.jpg" alt="jane profile image" class="user-img">
                 </div>
-                <p>Developer | Engineer | Problem Solver Master of shadows and the Internet!</p>
-                <div class="settings">
-                    <img src="icons/gear.png" alt="gear icon" class="icons">
-                    <a href="#" id="edit-profile">edit profile</a>
+                <div class="user-info">
+                    <h1>Jane Doe</h1>
+                    <div class="location">
+                        <img src="icons/map-marker.png" alt="map marker" class="usr-icons">
+                        <h2>Seattle</h2>
+                    </div>
+                    <p>Developer | Engineer | Problem Solver Master of shadows and the Internet!</p>
+                    <div class="settings">
+                        <img src="icons/gear.png" alt="gear icon" class="usr-icons">
+                        <a href="#" id="edit-profile">edit profile</a>
+                    </div>
                 </div>
-            </div>
+            </article>
+            <article class="experience"> <!-- This is the experience section-->
+            </article>
         </section>
+        <aside> <!-- This is the side bar with the connections-->
+            <div class="connections">
+                <div class="connections-header">
+                    <button class="requests-num">2</button>
+                    <h3>Connection Requests</h3>
+                </div>
+                <div class="connection-requests">
+                    <div class="connection">
+                        <img src="images/todd-s.jpg" alt="todd s" class="connection-img">
+                        <h3>Todd E</h3>
+                        <img src="icons/accept-circle.png" alt="accept" class="connection-icon">
+                        <img src="icons/close-circle.png" alt="close" class="connection-icon">
+                    </div>
+                    <div class="connection">
+                        <img src="images/phil-s.jpg" alt="phil s" class="connection-img">
+                        <h3>Phil K</h3>
+                        <img src="icons/accept-circle.png" alt="accept" class="connection-icon">
+                        <img src="icons/close-circle.png" alt="close" class="connection-icon">
+                    </div>
+                </div>
+            </div>
+            <div class="your-connections">
+            </div>
+        </aside>
     </main>
-    <aside>
-
-    </aside>
+    
 </body>
 </html>

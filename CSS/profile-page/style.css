@@ -33,12 +33,13 @@ a {
     text-decoration: none;
     margin: 10px;
 }
-button {
-    background-color: #00C5CD;
+#btn {
+    background-color: #17A2B8;
     color: white;
+    font-weight: 400;
     margin: 20px 10px;
     box-shadow: 5px 5px 0px black;
-    padding: 5px;
+    padding: 7px;
     justify-self: flex-end;
     margin-right: 10%;
 }
@@ -47,17 +48,13 @@ button {
 }
 /* NAV BAR STYLING ENDS HERE */
 
-.section-1 {
-    width: 60%;
+.user-card {
     border: lightgray 4px solid;
-    font-family: sans-serif;
-    position: absolute;
-    top: 10%;
-    left: 20%;
+
 }
 
 .header {
-    background-color: #00C5CD;
+    background-color: #17A2B8;
 }
 
 .user-img {
@@ -95,7 +92,7 @@ p {
     margin-top: 10px;
 }
 
-.icons {
+.usr-icons {
     height: 15px;
     margin: 5px;
 }
@@ -103,4 +100,38 @@ p {
 #edit-profile {
     color: #4287f5;
     font-size: 0.9em;
+}
+/* USER CARD STYLING ENDS HERE */
+main {
+    display: flex;
+    margin-top: 100px
+}
+
+.connections-header {
+    background-color: #4C4E52 ;
+    display: flex;
+    color: white;
+    padding: 10px;
+
+}
+.requests-num {
+    background-color: lightgray;
+    color: black;
+    border-radius: 50%;
+    width: 20px;
+}
+.connection-requests {
+    border: gray solid 2px;
+}
+.connection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px;
+}
+.connection-icon {
+    height: 25px;
+}
+.connection-img {
+    width: 50px;
 }
