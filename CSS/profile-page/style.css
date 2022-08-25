@@ -104,12 +104,14 @@ p {
 /* USER CARD STYLING ENDS HERE */
 main {
     display: flex;
-    margin-top: 100px
+    justify-content: center;
+    margin-top: 100px;
 }
 
 .connections-header {
     background-color: #4C4E52 ;
     display: flex;
+    flex-wrap: nowrap;
     color: white;
     padding: 10px;
 
@@ -118,10 +120,20 @@ main {
     background-color: lightgray;
     color: black;
     border-radius: 50%;
-    width: 20px;
+    width: 25px;
+    height: 25px;
 }
-.connection-requests {
-    border: gray solid 2px;
+
+.connections-num {
+    background-color: lightgray;
+    color: black;
+    border-radius: 40%;
+    width: 40px;
+    height: 25px;
+}
+.connections {
+    border: lightgray solid 4px;
+    margin: 0 15px 15px 15px;
 }
 .connection {
     display: flex;
@@ -134,4 +146,14 @@ main {
 }
 .connection-img {
     width: 50px;
+}
+
+.view-more a {
+    color: #4287f5;
+    text-decoration: underline;
+}
+
+.view-more {
+    border-top: lightgray solid 4px;
+    padding: 5px;
 }
