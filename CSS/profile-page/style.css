@@ -9,22 +9,28 @@ nav {
     background-color: black;
     color: white;
     height: 70px;
-    display: flex;
     width: 100%;
-    justify-content: space-between;
+    display: flex;
     align-items: center;
+    justify-content: space-around;
     position: fixed;
     top: 0px;
+}
+.nav-left {
+    display: flex;
+    justify-content: flex-start;
 }
 .nav-title {
     margin-left: 20px;
     font-weight: 400;
+    font-size: 1.75em;
 }
 .nav-links {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     list-style-type: none;
+    margin-left: 20px;
 }
 .nav-links a {
     color: white;
@@ -35,10 +41,8 @@ nav {
     background-color: #17A2B8;
     color: white;
     font-weight: 400;
-    margin: 20px 10px;
+    margin: 20px;
     padding: 10px;
-    justify-self: flex-end;
-    margin-right: 10%;
 }
 .active {
     font-weight: 400;
