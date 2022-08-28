@@ -8,7 +8,7 @@ body {
 }
 .container{
     width: 970px;
-    background: linear-gradient(180deg, #265175 70%, #3674A9 100%);
+    background: linear-gradient(180deg, #265175 90%, #3674A9 100%);
     background-repeat: no-repeat;
 }
 header {
@@ -103,6 +103,7 @@ aside {
 .python-intro {
     text-align: center;
     color: white;
+    padding: 0px 15px;
 }
 .zen-python {
     color: #ffd343;
