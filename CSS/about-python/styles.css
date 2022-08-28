@@ -4,9 +4,10 @@
     border: 0;
 }
 body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
     width: 970px;
-    height: auto;
-    background: rgb(55,118,171);
     background: linear-gradient(180deg, rgba(55,118,171,1) 71%, rgba(55,146,222,1) 100%);
     background-repeat: no-repeat;
 }
@@ -14,11 +15,10 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 20px;
 }
 #python-logo {
     width: 400px;
-    margin-top: 20px;
-    margin-left: 20px;
 }
 .search-bar {
     background-color: #404040;
@@ -44,12 +44,9 @@ header {
     border-right: 2px lightgray solid;
     border-bottom: 2px lightgray solid;
 }
-.header-right {
-    margin-right: 20px;
-    justify-self: flex-end;
-}
 .header-right p {
     color: white;
+    font-size: 14px;
     text-align: center;
     margin-bottom: 5px;
 }
@@ -58,4 +55,89 @@ header {
 }
 
 /* HEADER STYLING ENDS HERE */
+
+.navbar {
+    background-color: rgba(55,146,222,1);
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px black;
+    height: 40px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 20px;
+}
+
+/* NAV BAR STYLING ENDS HERE */
+aside {
+    width: 900px;
+}
+.sidebar-list {
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    list-style: none;
+    text-decoration: underline;
+    /* margin: 0 20px 20px 20px; */
+}
+.sidebar-list li:before {
+    content: ">>";
+    padding-right: 5px;
+    color: #ffd343;
+    font-size: 8px;
+    font-weight:1000;
+    text-decoration: none;
+}
+.top-section {
+    display: flex;
+    padding: 20px;
+}
+.python-intro {
+    text-align: center;
+    color: white;
+}
+.zen-python {
+    color: #ffd343;
+    font-style: italic;
+    line-height: 30px;
+    margin-top: 20px;
+    font-size: 1.25em;
+}
+.zen-python span {
+    color: white;
+    font-size: 0.75em;
+    font-style: normal;
+}
+
+/* TOP SECTION ENDS HERE */
+
+.bottom-section {
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.bottom-article {
+    text-align: center;
+    padding-top: 20px;
+    border-top: lightskyblue 5px solid;
+}
+#getting-started {
+    margin-right: 25px;
+}
+.bottom-article ul {
+    color: lightskyblue;
+    list-style-type: square;
+    list-style-position: inside;
+}
+.bottom-article span {
+    color: lightskyblue;
+    font-size: smaller;
+}
+
+/* BOTTOM SECTION STYLING ENDS HERE */
+
 
