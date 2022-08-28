@@ -53,6 +53,9 @@ header {
 .header-right a {
     color: #ffd343;
 }
+.header-right span {
+    color: black;
+}
 
 /* HEADER STYLING ENDS HERE */
 
