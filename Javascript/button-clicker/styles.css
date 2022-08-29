@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+}
+body {
+    width: 700px;
+}
+header {
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    /* width: 720px; */
+}
+input {
+    height: 25px;
+    padding-left: 5px;
+    border: 2px solid black;
+    width: 250px;
+}
+.login-btn {
+    background-color: #0066FF;
+    color: white;
+    border: 2px black solid;
+    box-shadow: 3px 3px black;
+    padding: 5px 10px;
+}
+/* HEADER STYLING ENDS HERE */
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 25px;
+    width: 700px;
+}
+main {
+    width: 70%;
+}
+.definition {
+    border: black 2px solid;
+    color: black;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+.definition p {
+    text-align: center;
+    padding: 40px 20px;
+}
+.definition span {
+    color: #0066FF;
+    text-decoration: underline;
+}
+.definition-left {
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+
+}
+.likes {
+    background-color: #ffd343;
+    font-weight: bold;
+    padding: 5px 15px;
+    border: 2px black solid;
+    box-shadow: 3px 3px black;
+    margin-top: 10px;
+}
+.definition-left span {
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+}
+.definition-left h3 {
+    font-size: 2.5em;
+    font-weight: 500;
+}
+.definition-left h4 {
+    font-style: italic;
+}
+aside {
+    border: 3px black solid;
+    padding: 20px;
+    width: 30%; 
+}
+.add-definition {
+    background-color: lightgreen;
+    font-weight: 500px;
+    border: black 2px solid;
+    box-shadow: 3px 3px black;
+    padding: 5px 10px;
+    width: 200px;
+}
+aside p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+aside span {
+    font-weight: bold;
+}
