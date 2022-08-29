@@ -6,6 +6,7 @@
 }
 body {
     width: 700px;
+    margin: 0px 40px;
 }
 header {
     background-color: lightgray;
@@ -13,7 +14,6 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 15px 20px;
-    /* width: 720px; */
 }
 h1 {
     font-weight: 500;
@@ -65,7 +65,6 @@ main {
     width: 100px;
     text-align: center;
     padding: 10px;
-
 }
 .likes {
     background-color: #ffd343;

@@ -4,3 +4,4 @@ function logout(element) {
 function hide(element) {
     element.remove();
 }
+
