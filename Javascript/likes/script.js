@@ -1,6 +1,7 @@
+var likes = document.querySelector("#likes-1");
+var newLikes = 3;
+
 function increaseLikes() {
-    var initLikes = document.querySelector("#likes-1 span");
-    var newLikes = initLikes.innerHTML;
     newLikes++;
-    initLikes.innerHTML = newLikes;
+    likes.innerText = newLikes + " like(s)";
 }
