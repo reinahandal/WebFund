@@ -33,14 +33,14 @@ aside {
     width: 150px;
 }
 main {
-    margin-left: 40px;
+    margin-left: 20px;
 }
 aside img {
     width: 100px;
 }
 .status-update {
     border: 3px black solid;
-    width: 300px;
+    width: 350px;
     margin-bottom: 20px;
     padding: 20px;
 }
