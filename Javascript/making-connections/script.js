@@ -15,14 +15,14 @@ function removeRequest() {
 var friendRequest2 = document.querySelector("#friendrequest-2");
 function removeRequest2() {
     friendRequest2.remove();
-    var requestsNum = document.querySelector("#badge-1");
+    var requestsNum = document.querySelector("#requests");
     var requestsNew = requestsNum.innerText;
     requestsNew--;
     requestsNum.innerText = requestsNew;
 }
 
 function addFriend() {
-    var friendsNum = document.querySelector("#badge-2");
+    var friendsNum = document.querySelector("#connections");
     var newFriends = friendsNum.innerText;
     newFriends++;
     friendsNum.innerText = newFriends;
