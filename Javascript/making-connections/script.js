@@ -6,7 +6,7 @@ function changeName() {
 var friendRequest = document.querySelector("#friendrequest-1");
 function removeRequest() {
     friendRequest.remove();
-    var requestsNum = document.querySelector("#badge-1");
+    var requestsNum = document.querySelector("#requests");
     var requestsNew = requestsNum.innerText;
     requestsNew--;
     requestsNum.innerText = requestsNew;
