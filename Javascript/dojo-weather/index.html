@@ -24,9 +24,9 @@
             <h2>San Jose</h2>
             <div class="select-temp">
                 <p>show temperature in</p>
-                <select onchange="changeTempUnit()">
-                    <option>°C</option>
-                    <option>°F</option>
+                <select id="temp-unit" onchange="changeTempUnit()">
+                    <option value="1">°C</option>
+                    <option value="2">°F</option>
                 </select>
             </div>
         </div>
@@ -36,8 +36,8 @@
                 <img src="assets/some_rain.png" alt="some rain">
                 <h5>some rain</h5>
                 <div class="temperatures">
-                    <h4 class="hightemp"><span>24</span>°</h4>
-                    <h4 class="lowtemp"><span>18</span>°</h4>
+                    <h4 class="hightemp temp"><span>24</span>°</h4>
+                    <h4 class="lowtemp temp"><span>18</span>°</h4>
                 </div>
             </section>
             <section class="weather-card">
@@ -45,8 +45,8 @@
                 <img src="assets/some_sun.png" alt="some sun">
                 <h5>some sun</h5>
                 <div class="temperatures">
-                    <h4 class="hightemp"><span>27</span>°</h4>
-                    <h4 class="lowtemp"><span>19</span>°</h4>
+                    <h4 class="hightemp temp"><span>27</span>°</h4>
+                    <h4 class="lowtemp temp"><span>19</span>°</h4>
                 </div>
             </section>
             <section class="weather-card">
@@ -54,8 +54,8 @@
                 <img src="assets/some_clouds.png" alt="some clouds">
                 <h5>some clouds</h5>
                 <div class="temperatures">
-                    <h4 class="hightemp"><span>21</span>°</h4>
-                    <h4 class="lowtemp"><span>16</span>°</h4>
+                    <h4 class="hightemp temp"><span>21</span>°</h4>
+                    <h4 class="lowtemp temp"><span>16</span>°</h4>
                 </div>
             </section>
             <section class="weather-card" id="saturday-weather">
@@ -63,8 +63,8 @@
                 <img src="assets/some_sun.png" alt="some rain">
                 <h5>some sun</h5>
                 <div class="temperatures">
-                    <h4 class="hightemp"><span>26</span>°</h4>
-                    <h4 class="lowtemp"><span>21</span>°</h4>
+                    <h4 class="hightemp temp"><span>26</span>°</h4>
+                    <h4 class="lowtemp temp"><span>21</span>°</h4>
                 </div>
             </section>
         </div>
