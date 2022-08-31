@@ -19,17 +19,57 @@
             <li>Dallas</li>
         </ul>
     </header>
-    <div class="top-bar">
-        <h2>San Jose</h2>
-        <div class="select-temp">
-            <p>show temperature in</p>
-            <select>
-                <option>°C</option>
-                <option>°F</option>
-            </select>
+    <main>
+        <div class="top-bar">
+            <h2>San Jose</h2>
+            <div class="select-temp">
+                <p>show temperature in</p>
+                <select>
+                    <option>°C</option>
+                    <option>°F</option>
+                </select>
+            </div>
         </div>
-    </div>
-
+        <div class="container">
+            <section class="weather-card">
+                <h3>Today</h3>
+                <img src="assets/some_rain.png" alt="some rain">
+                <h5>some rain</h5>
+                <div class="temperatures">
+                    <h4 class="hightemp">24°</h4>
+                    <h4 class="lowtemp">18°</h4>
+                </div>
+            </section>
+            <section class="weather-card">
+                <h3>Tomorrow</h3>
+                <img src="assets/some_sun.png" alt="some sun">
+                <h5>some sun</h5>
+                <div class="temperatures">
+                    <h4 class="hightemp">27°</h4>
+                    <h4 class="lowtemp">19°</h4>
+                </div>
+            </section>
+            <section class="weather-card">
+                <h3>Friday</h3>
+                <img src="assets/some_clouds.png" alt="some clouds">
+                <h5>some clouds</h5>
+                <div class="temperatures">
+                    <h4 class="hightemp">21°</h4>
+                    <h4 class="lowtemp">16°</h4>
+                </div>
+            </section>
+            <section class="weather-card" id="saturday-weather">
+                <h3>Saturday</h3>
+                <img src="assets/some_sun.png" alt="some rain">
+                <h5>some sun</h5>
+                <div class="temperatures">
+                    <h4 class="hightemp">26°</h4>
+                    <h4 class="lowtemp">21°</h4>
+                </div>
+            </section>
+        </div>
+    </main>
+    
     <script src="script.js"></script>
 </body>
 </html>
