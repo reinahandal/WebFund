@@ -26,6 +26,7 @@ ul {
 }
 li {
     margin: 10px;
+    cursor: pointer;
 }
 main {
     width: 90%;
@@ -86,4 +87,30 @@ margin-right: 0;
 }
 .lowtemp {
     color: blue;
+}
+.cookie-alert {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 3px solid black;
+    background-color: #ECECEC;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+}
+.cookie-alert h3 {
+    font-size: 0.9em;
+}
+.cookie-alert p {
+    font-size: 0.8em;
+}
+.alert-text {
+    padding: 0px 20px;
+}
+.accept-btn {
+    background-color: skyblue;
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+    padding: 5px 10px;
+    width: 150px;
 }

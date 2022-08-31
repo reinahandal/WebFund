@@ -14,9 +14,9 @@
     <header>
         <h1>DojoWeather</h1>
         <ul>
-            <li>Burbank</li>
-            <li>Chicago</li>
-            <li>Dallas</li>
+            <li onclick="cityAlert(this)">Burbank</li>
+            <li onclick="cityAlert(this)">Chicago</li>
+            <li onclick="cityAlert(this)">Dallas</li>
         </ul>
     </header>
     <main>
@@ -24,7 +24,7 @@
             <h2>San Jose</h2>
             <div class="select-temp">
                 <p>show temperature in</p>
-                <select>
+                <select onchange="changeTempUnit()">
                     <option>°C</option>
                     <option>°F</option>
                 </select>
@@ -36,8 +36,8 @@
                 <img src="assets/some_rain.png" alt="some rain">
                 <h5>some rain</h5>
                 <div class="temperatures">
-                    <h4 class="hightemp">24°</h4>
-                    <h4 class="lowtemp">18°</h4>
+                    <h4 class="hightemp"><span>24</span>°</h4>
+                    <h4 class="lowtemp"><span>18</span>°</h4>
                 </div>
             </section>
             <section class="weather-card">
@@ -45,8 +45,8 @@
                 <img src="assets/some_sun.png" alt="some sun">
                 <h5>some sun</h5>
                 <div class="temperatures">
-                    <h4 class="hightemp">27°</h4>
-                    <h4 class="lowtemp">19°</h4>
+                    <h4 class="hightemp"><span>27</span>°</h4>
+                    <h4 class="lowtemp"><span>19</span>°</h4>
                 </div>
             </section>
             <section class="weather-card">
@@ -54,8 +54,8 @@
                 <img src="assets/some_clouds.png" alt="some clouds">
                 <h5>some clouds</h5>
                 <div class="temperatures">
-                    <h4 class="hightemp">21°</h4>
-                    <h4 class="lowtemp">16°</h4>
+                    <h4 class="hightemp"><span>21</span>°</h4>
+                    <h4 class="lowtemp"><span>16</span>°</h4>
                 </div>
             </section>
             <section class="weather-card" id="saturday-weather">
@@ -63,13 +63,20 @@
                 <img src="assets/some_sun.png" alt="some rain">
                 <h5>some sun</h5>
                 <div class="temperatures">
-                    <h4 class="hightemp">26°</h4>
-                    <h4 class="lowtemp">21°</h4>
+                    <h4 class="hightemp"><span>26</span>°</h4>
+                    <h4 class="lowtemp"><span>21</span>°</h4>
                 </div>
             </section>
         </div>
+        <div class="cookie-alert">
+            <img src="assets/cookie.png" alt="cookie">
+            <div class="alert-text">
+                <h3>Stop! Cookie time</h3>
+                <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a href="#">Read more...</a></p>
+            </div>
+            <button class="accept-btn" onclick="acceptCookies()">I accept</button>
+        </div>
     </main>
-    
     <script src="script.js"></script>
 </body>
 </html>
