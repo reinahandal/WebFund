@@ -15,4 +15,9 @@ function changeTempUnit() {
             console.log(tempSpan[i]);
         }
     }
+    else if (option === '1') {
+        for (var x=0; x<tempSpan.length; x++) {
+        tempSpan[x].innerText = Math.floor(5/9 * (tempSpan[x].innerText - 32));
+    }
+}
 }
