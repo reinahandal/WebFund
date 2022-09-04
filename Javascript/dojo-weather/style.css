@@ -96,7 +96,9 @@ margin-right: 0;
     background-color: #ECECEC;
     padding: 20px;
     position: fixed;
-    bottom: 0;
+    bottom: 0px;
+    width: 83%;
+
 }
 .cookie-alert h3 {
     font-size: 0.9em;
