@@ -43,3 +43,4 @@ function calculate() {
     }
     getDisplay().innerText = result;
 }
+
