@@ -9,7 +9,7 @@ function getDisplay() { // helps us reuse this code to access display within oth
 
 function press(number) {
     // var getDisplay = document.getElementById('display'); // access display
-    currentNumber += parseFloat(number); // turns string into float, float bc the calculator also needs to work with floats not only integers
+    currentNumber += number; // turns string into float, float bc the calculator also needs to work with floats not only integers
     // += so that when we add a number it doesnt delete previous
     if (operator) {
         number2 = parseFloat(currentNumber);
@@ -26,6 +26,9 @@ function setOP(op) {
 }
 function clr() {
     currentNumber = "";
+    number1 = 0;
+    number2 = 0;
+    operator = undefined;
     getDisplay().innerText = "0";
 }
 function calculate() {
