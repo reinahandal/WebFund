@@ -1,7 +1,6 @@
-var catVideo = document.querySelector("#cat-video");
-function playVideo() {
-    catVideo.play();
+function playVideo(element) {
+    element.play();
 }
-function pauseVideo() {
-    catVideo.pause();
+function pauseVideo(element) {
+    element.pause();
 }
