@@ -67,24 +67,24 @@
                     <h3>Connection Requests</h3>
                 </div>
                 <ul class="card-list">
-                    <li class="card-list-item" id="friendrequest-1">
+                    <li class="card-list-item" id="request-1">
                         <span>
                             <img src="images/todd-s.jpg" alt="todd" class="avatar-s">
                             Todd E
                         </span>
                         <span>
-                            <img src="icons/accept-circle.png" alt="accept" class="icon" onclick="removeRequest(); addFriend()">
-                            <img src="icons/close-circle.png" alt="close" class="icon" onclick="removeRequest()">
+                            <img src="icons/accept-circle.png" alt="accept" class="icon" onclick="acceptRequest('#request-1')">
+                            <img src="icons/close-circle.png" alt="close" class="icon" onclick="declineRequest('#request-1')">
                         </span>
                     </li>
-                    <li class="card-list-item" id="friendrequest-2">
+                    <li class="card-list-item" id="request-2">
                         <span>
                             <img src="images/phil-s.jpg" alt="phil" class="avatar-s">
                             Phil E
                         </span>
                         <span>
-                            <img src="icons/accept-circle.png" alt="accept" class="icon" onclick="removeRequest2(); addFriend()">
-                            <img src="icons/close-circle.png" alt="close" class="icon"onclick="removeRequest2()" >
+                            <img src="icons/accept-circle.png" alt="accept" class="icon" onclick="acceptRequest('#request-2')">
+                            <img src="icons/close-circle.png" alt="close" class="icon"onclick="declineRequest('#request-2')" >
                         </span>
                     </li>
                 </ul>
