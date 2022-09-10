@@ -1,0 +1,18 @@
+INSERT into tweets (tweet, user_id, created_at, updated_at);
+VALUES ("i love pizza", 4, NOW(), NOW());
+
+SELECT * 
+from tweets
+WHERE user_id = 4;
+
+SELECT * 
+FROM users
+ORDER by birthday DESC;
+
+UPDATE users
+SET first_name = 'Dwight', last_name ='Schrute', handle = 'bearsandjello'
+WHERE id =  2
+
+
+DELETE FROM tweets 
+WHERE id = 19
