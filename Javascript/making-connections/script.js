@@ -2,10 +2,10 @@
 // var friendRequest2 = document.querySelector("#friendrequest-2");
 var requestsNum = document.querySelector("#requests");
 var friendsNum = document.querySelector("#connections");
-var userName = document.querySelector(".card-body h1");
-
+// var userName = document.querySelector(".card-body h1");
 
 function changeName() {
+    var userName = document.querySelector(".card-body h1");
     userName.innerText = "Reina Handal";
 }
 
