@@ -1,22 +1,20 @@
-function cityAlert() {
-    alert("Loading weather report...");
+function cityAlert(element) {
+    alert("Loading " + element.innerText + " weather report...");
 }
-var cookieAlert = document.querySelector(".cookie-alert");
 function acceptCookies() {
-    cookieAlert.remove();
+    document.querySelector(".cookie-alert").remove();
 }
-var tempSpan = document.querySelectorAll(".temp span");
-
 function changeTempUnit() {
+    var tempSpan = document.querySelectorAll(".temp span");
     var option = document.getElementById('temp-unit').value;
     if (option === '1') {
-        for (var x=0; x<tempSpan.length; x++) {
-        tempSpan[x].innerText = Math.round(5/9 * (tempSpan[x].innerText - 32));
+        for (var i=0; i<tempSpan.length; i++) {
+        tempSpan[i].innerText = Math.round(5/9 * (tempSpan[i].innerText - 32));
     }
 }
     else if (option === '2') {
         for (var i=0; i<tempSpan.length; i++) {
-            tempSpan[i].innerText = (tempSpan[i].innerText * 9/5) + 32;
+            tempSpan[i].innerText = Math.round(tempSpan[i].innerText * 9/5) + 32;
             console.log(tempSpan[i]);
         }
     }
